@@ -15,7 +15,7 @@ namespace Lab6_OOP_Arv
 		public string BreathingOrgan { get; set; }
 		public bool HasTail { get; set; }
 
-		public Animal(string skinType, string locomotorOrgan, int ears, string breathingOrgan, bool hasTail)
+		public Animal(string skinType = "skin", string locomotorOrgan = "legs", int ears = "2", string breathingOrgan = "nose", bool hasTail = false)
         {
 			Skintype = skinType;
 			LocomotorOrgan = locomotorOrgan;
@@ -26,6 +26,8 @@ namespace Lab6_OOP_Arv
 
 		public abstract void Eat();
 		public abstract void Sleep();
-		public abstract void Move();
+		public abstract void MakeSound();
     }
+
+
 }
