@@ -9,13 +9,13 @@ namespace Lab6_OOP_Arv
 {
 	public abstract class Animal
 	{
-		public string Skintype;
-		public string LocomotorOrgan;
-		public int Ears;
-		public string BreathingOrgan;
-		public bool HasTail;
+		public string Skintype { get; set; }
+		public string LocomotorOrgan { get; set; }
+		public int Ears { get; set; }
+		public string BreathingOrgan { get; set; }
+		public bool HasTail { get; set; }
 
-        public Animal(string skinType, string locomotorOrgan, int ears, string breathingOrgan, bool hasTail)
+		public Animal(string skinType, string locomotorOrgan, int ears, string breathingOrgan, bool hasTail)
         {
 			Skintype = skinType;
 			LocomotorOrgan = locomotorOrgan;
