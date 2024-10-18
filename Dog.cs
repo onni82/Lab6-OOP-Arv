@@ -31,5 +31,20 @@ namespace Lab6_OOP_Arv
 			Console.WriteLine("The dog barks.");
 		}
 	}
+	public class Chihuahua : Dog
+	{
+		public Chihuahua(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
+			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		{
+			
+		}
+	}
+	public class Bulldog : Dog
+	{
+		public Bulldog(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
+			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		{
 
+		}
+	}
 }
