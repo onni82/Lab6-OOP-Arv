@@ -9,6 +9,12 @@
 			Bulldog bulldog = new Bulldog("almost too");
 			Cat cat = new Cat("green", "naked");
 			Bird bird = new Bird(3, "tweet");
+
+			dog.MakeSound();
+			chihuahua.MakeSound();
+			bulldog.MakeSound();
+			cat.MakeSound();
+			bird.MakeSound();
 		}
 	}
 }
