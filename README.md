@@ -1,3 +1,13 @@
+# Lab 6 - OOP Arv
+
+Klasser:
+- [ ]  `Animal`
+    - [ ]  `Bird`
+    - [ ]  `Cat`
+    - [ ]  `Dog`
+      - [ ]  `Chihuahua`
+      - [ ]  `Bulldog`
+
 # Om Lab 6 - OOP Arv
 
 I denna uppgift kommer du öva på att använda arv inom objektorientering. Uppgiften handlar till stor del om att tänka ut en struktur för arv men också delvis om att implementera den i kod.
