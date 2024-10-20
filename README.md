@@ -21,8 +21,8 @@ Egenskaper:
     - [ ] `Bird`: `double WingSpan` `string Sound`
     - [ ] `Cat`: `string EyeColor`
     - [ ] `Dog`: `string Breed`
-        - [ ] `Chihuahua`: ``
-        - [ ] `Bulldog`: ``
+        - [ ] `Chihuahua`: `string Sass`
+        - [ ] `Bulldog`: `string Friendly`
 
 # Om Lab 6 - OOP Arv
 
