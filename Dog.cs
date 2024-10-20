@@ -18,17 +18,17 @@ namespace Lab6_OOP_Arv
 
 		public override void Eat()
 		{
-			Console.WriteLine("The dog is eating dog food.");
+			Console.WriteLine($"The {Breed} is eating dog food.");
 		}
 
 		public override void Sleep()
 		{
-			Console.WriteLine("The dog is sleeping in its bed.");
+			Console.WriteLine($"The {Breed} is sleeping in its bed.");
 		}
 
 		public override void MakeSound()
 		{
-			Console.WriteLine("The dog barks.");
+			Console.WriteLine($"The {Breed} barks.");
 		}
 	}
 	public class Chihuahua : Dog
@@ -56,7 +56,7 @@ namespace Lab6_OOP_Arv
 
 		public void Play()
 		{
-			Console.WriteLine($"The bulldog plays with all the nearby children. It's a {Friendly} friendly dog.");
+			Console.WriteLine($"The bulldog plays with all the nearby children. The dog is {Friendly} friendly.");
 		}
 	}
 }
