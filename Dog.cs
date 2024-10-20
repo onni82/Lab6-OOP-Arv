@@ -33,18 +33,20 @@ namespace Lab6_OOP_Arv
 	}
 	public class Chihuahua : Dog
 	{
-		public Chihuahua(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
+		public string Sass { get; set; }
+		public Chihuahua(string breed = "Chihuahua", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true, string sass = "a lot")
 			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
 		{
-			
+			Sass = sass;
 		}
 	}
 	public class Bulldog : Dog
 	{
-		public Bulldog(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
+		public string Friendliness { get; set; }
+		public Bulldog(string breed = "Bulldog", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true, string friendliness = "a lot")
 			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
 		{
-
+			Friendliness = friendliness;
 		}
 	}
 }
