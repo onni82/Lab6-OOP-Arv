@@ -9,11 +9,13 @@ namespace Lab6_OOP_Arv
 	public class Bird : Animal
 	{
 		public double WingSpan { get; set; }
+		public string Sound { get; set; }
 
-		public Bird(double wingSpan)
+		public Bird(double wingSpan, string sound = "chirp")
 			: base("feathers", "wings", 0, "beak", true)
 		{
 			WingSpan = wingSpan;
+			Sound = sound;
 		}
 
 		public override void Eat()
@@ -28,7 +30,7 @@ namespace Lab6_OOP_Arv
 
 		public override void MakeSound()
 		{
-			Console.WriteLine("The bird chirps.");
+			Console.WriteLine($"The bird {Sound}s.");
 		}
 	}
 }
