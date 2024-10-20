@@ -10,7 +10,7 @@ namespace Lab6_OOP_Arv
 	{
 		public string Breed { get; set; }
 
-		public Dog(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
+		public Dog(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true)
 			: base(skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
 		{
 			Breed = breed;
@@ -34,7 +34,7 @@ namespace Lab6_OOP_Arv
 	public class Chihuahua : Dog
 	{
 		public string Sass { get; set; }
-		public Chihuahua(string breed = "Chihuahua", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true, string sass = "a lot")
+		public Chihuahua(string breed = "Chihuahua", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true, string sass = "a lot")
 			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
 		{
 			Sass = sass;
@@ -48,7 +48,7 @@ namespace Lab6_OOP_Arv
 	public class Bulldog : Dog
 	{
 		public string Friendliness { get; set; }
-		public Bulldog(string breed = "Bulldog", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true, string friendliness = "a lot")
+		public Bulldog(string breed = "Bulldog", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true, string friendliness = "a lot")
 			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
 		{
 			Friendliness = friendliness;
