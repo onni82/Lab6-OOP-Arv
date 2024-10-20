@@ -34,8 +34,8 @@ namespace Lab6_OOP_Arv
 	public class Chihuahua : Dog
 	{
 		public string Sass { get; set; }
-		public Chihuahua(string breed = "Chihuahua", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true, string sass = "a lot")
-			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		public Chihuahua(string sass = "a lot")
+			: base("chihuahua")
 		{
 			Sass = sass;
 		}
