@@ -39,6 +39,11 @@ namespace Lab6_OOP_Arv
 		{
 			Sass = sass;
 		}
+
+		public void Taunt()
+		{
+			Console.WriteLine("The chihuahua taunts everyone aggressively.");
+		}
 	}
 	public class Bulldog : Dog
 	{
