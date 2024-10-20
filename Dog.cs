@@ -47,11 +47,11 @@ namespace Lab6_OOP_Arv
 	}
 	public class Bulldog : Dog
 	{
-		public string Friendliness { get; set; }
-		public Bulldog(string friendliness = "a lot")
+		public string Friendly { get; set; }
+		public Bulldog(string friendly = "very")
 			: base("Bulldog")
 		{
-			Friendliness = friendliness;
+			Friendly = friendly;
 		}
 
 		public void Play()
