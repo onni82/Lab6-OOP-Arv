@@ -42,7 +42,7 @@ namespace Lab6_OOP_Arv
 
 		public void Taunt()
 		{
-			Console.WriteLine("The chihuahua taunts everyone aggressively.");
+			Console.WriteLine($"The chihuahua taunts everyone aggressively with {Sass} of sass.");
 		}
 	}
 	public class Bulldog : Dog
