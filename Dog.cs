@@ -53,5 +53,10 @@ namespace Lab6_OOP_Arv
 		{
 			Friendliness = friendliness;
 		}
+
+		public void Play()
+		{
+			Console.WriteLine("The plays with all the nearby children.");
+		}
 	}
 }
