@@ -1,5 +1,4 @@
-﻿using Spectre.Console;
-namespace Lab6_OOP_Arv
+﻿namespace Lab6_OOP_Arv
 {
 	internal class Program
 	{
