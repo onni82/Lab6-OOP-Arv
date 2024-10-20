@@ -56,7 +56,7 @@ namespace Lab6_OOP_Arv
 
 		public void Play()
 		{
-			Console.WriteLine("The bulldog plays with all the nearby children.");
+			Console.WriteLine($"The bulldog plays with all the nearby children. It's a {Friendly} friendly dog.");
 		}
 	}
 }
