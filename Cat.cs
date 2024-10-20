@@ -10,8 +10,8 @@ namespace Lab6_OOP_Arv
 	{
 		public string EyeColor { get; set; }
 
-		public Cat(string eyeColor, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = true)
-			: base(skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		public Cat(string eyeColor, string skinType = "fur")
+			: base(skinType, "legs", 2, "nose", true)
 		{
 			EyeColor = eyeColor;
 		}
