@@ -10,8 +10,8 @@ namespace Lab6_OOP_Arv
 	{
 		public double WingSpan { get; set; }
 
-		public Bird(double wingSpan, string skinType = "feathers", string locomotorOrgan = "wings", int ears = 0, string breathingOrgan = "beak", bool hasTail = true)
-			: base(skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		public Bird(double wingSpan)
+			: base("feathers", "wings", 0, "beak", true)
 		{
 			WingSpan = wingSpan;
 		}
