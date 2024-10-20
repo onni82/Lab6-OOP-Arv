@@ -10,8 +10,8 @@ namespace Lab6_OOP_Arv
 	{
 		public string Breed { get; set; }
 
-		public Dog(string breed, string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true)
-			: base(skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		public Dog(string breed)
+			: base("fur", "legs", 2, "snout", true)
 		{
 			Breed = breed;
 		}
