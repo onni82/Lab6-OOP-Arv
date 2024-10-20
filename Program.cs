@@ -5,7 +5,7 @@ namespace Lab6_OOP_Arv
 	{
 		static void Main(string[] args)
 		{
-			Dog dog = new Dog("Dachshund", "fur", "legs", 2, "snout", true);
+			Dog dog = new Dog("Dachshund");
 			Chihuahua chihuahua = new Chihuahua();
 			Bulldog bulldog = new Bulldog();
 			Cat cat = new Cat();
