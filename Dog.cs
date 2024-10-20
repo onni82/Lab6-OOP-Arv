@@ -48,8 +48,8 @@ namespace Lab6_OOP_Arv
 	public class Bulldog : Dog
 	{
 		public string Friendliness { get; set; }
-		public Bulldog(string breed = "Bulldog", string skinType = "fur", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "snout", bool hasTail = true, string friendliness = "a lot")
-			: base(breed, skinType, locomotorOrgan, ears, breathingOrgan, hasTail)
+		public Bulldog(string friendliness = "a lot")
+			: base("Bulldog")
 		{
 			Friendliness = friendliness;
 		}
