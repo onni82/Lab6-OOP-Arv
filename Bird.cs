@@ -32,5 +32,9 @@ namespace Lab6_OOP_Arv
 		{
 			Console.WriteLine($"The bird {Sound}s.");
 		}
+		public void Fly()
+		{
+			Console.WriteLine($"The bird flies with a wing span of {WingSpan} centimetres.");
+		}
 	}
 }
