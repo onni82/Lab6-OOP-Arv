@@ -7,7 +7,7 @@ namespace Lab6_OOP_Arv
 		{
 			Dog dog = new Dog("Dachshund");
 			Chihuahua chihuahua = new Chihuahua("only some");
-			Bulldog bulldog = new Bulldog("very much");
+			Bulldog bulldog = new Bulldog("almost too");
 			Cat cat = new Cat("green", "naked");
 			Bird bird = new Bird(3, "tweet");
 		}
