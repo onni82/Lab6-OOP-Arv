@@ -20,19 +20,19 @@ namespace Lab6_OOP_Arv
 		// overrides Animal.Eat()
 		public override void Eat()
 		{
-			Console.WriteLine($"The {EyeColor} eyed cat is eating cat food.");
+			Console.WriteLine($"The {EyeColor}-eyed cat is eating cat food.");
 		}
 
 		// overrides Animal.Sleep()
 		public override void Sleep()
 		{
-			Console.WriteLine($"The {EyeColor} eyed cat is napping in a sunny spot.");
+			Console.WriteLine($"The {EyeColor}-eyed cat is napping in a sunny spot.");
 		}
 
 		// overrides Animal.MakeSound()
 		public override void MakeSound()
 		{
-			Console.WriteLine($"The {EyeColor} eyed cat meows.");
+			Console.WriteLine($"The {EyeColor}-eyed cat meows.");
 		}
 	}
 }
