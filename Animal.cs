@@ -15,6 +15,7 @@ namespace Lab6_OOP_Arv
 		public string BreathingOrgan { get; set; }
 		public bool HasTail { get; set; }
 
+		// Animal() requires skinType, locomotorOrgan, ears, breathingOrgan and hasTail
 		public Animal(string skinType = "skin", string locomotorOrgan = "legs", int ears = 2, string breathingOrgan = "nose", bool hasTail = false)
         {
 			Skintype = skinType;
@@ -24,6 +25,7 @@ namespace Lab6_OOP_Arv
 			HasTail = hasTail;
         }
 
+		// all three methods need to be overridden by subclasses
 		public abstract void Eat();
 		public abstract void Sleep();
 		public abstract void MakeSound();
